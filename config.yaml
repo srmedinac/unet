@@ -1,9 +1,9 @@
-train_images: /Users/srmedinac/Documents/BMEPhD/code/data/tumor_budding/256/patches/train/all
-train_masks: /Users/srmedinac/Documents/BMEPhD/code/data/tumor_budding/256/masks/train/all
-val_images: /Users/srmedinac/Documents/BMEPhD/code/data/tumor_budding/256/patches/val/all
-val_masks: /Users/srmedinac/Documents/BMEPhD/code/data/tumor_budding/256/masks/val/all
-test_images: /Users/srmedinac/Documents/BMEPhD/code/data/tumor_budding/256/patches/test/all
-test_masks: /Users/srmedinac/Documents/BMEPhD/code/data/tumor_budding/256/masks/test/all
+train_images: /Users/srmedinac/Documents/BMEPhD/data/tumor_budding/256/patches/train/all
+train_masks: /Users/srmedinac/Documents/BMEPhD/data/tumor_budding/256/masks/train/all
+val_images: /Users/srmedinac/Documents/BMEPhD/data/tumor_budding/256/patches/val/all
+val_masks: /Users/srmedinac/Documents/BMEPhD/data/tumor_budding/256/masks/val/all
+test_images: /Users/srmedinac/Documents/BMEPhD/data/tumor_budding/256/patches/test/all
+test_masks: /Users/srmedinac/Documents/BMEPhD/data/tumor_budding/256/masks/test/all
 batch_size: 32
 epochs: 50
 num_workers: 12

@@ -268,7 +268,7 @@ class Unet(pl.LightningModule):
             loss = bce_loss + dice_loss(y_hat_mask, y).mean()
         else:
             bce_loss = F.binary_cross_entropy_with_logits(y_hat, y)
-            loss = bce_loss  # + dice_loss(y_hat_mask, y).mean()
+            loss = bce_loss + dice_loss(y_hat_mask, y).mean()
 
         # Calculate Dice score
         dice = dice_score(y_hat_mask, y)
